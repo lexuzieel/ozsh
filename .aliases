@@ -1,0 +1,13 @@
+# Git
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold white)<%an>%Creset' --abbrev-commit"
+alias gs="git status"
+alias ga="git add "
+alias gaa="git add ."
+alias gc="git commit -m "
+alias gcom="git checkout master"
+alias gco="git checkout"
+# Composer
+alias unit="vendor/bin/phpunit"
+# Laravel
+alias artisan="php artisan"
+alias tinker="artisan tinker"
